@@ -29,8 +29,16 @@ header {
     height: 70px;
     width: 140px;
 }
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
 .navigation a{
+    display: flex;
+    position: relative;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
     padding: 3px 15px;
     border-radius: 20px;
