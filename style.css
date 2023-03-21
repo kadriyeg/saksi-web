@@ -7,7 +7,7 @@ font-family: 'Poppins' , sans-serif;
 }
 
 body {
-    background: hsl(0, 0%, 98%);
+    background: hsl(0, 78%, 46%);
     min-height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -26,8 +26,8 @@ header {
 }
 
 #saksilogo {
-    height: 70px;
-    width: 140px;
+    height:auto;
+    width: 30%;
 }
 .navigation {
     flex-direction: column;
@@ -43,9 +43,9 @@ header {
     border-radius: 20px;
     margin: 1 10px;
     font-size: small;
-    font-weight: 400;
-    width: 10%;
-
+    font-weight: 600;
+    width: 20%;
+    margin-right: 20px;
 }
 .navigation a:hover,
 .navigation a.active {
@@ -65,7 +65,8 @@ header {
     position: absolute;
     font-size: 4em;
     text-align: center;
-    width: 95%;
+    width: 60%;
+    font-weight: 800;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 
@@ -80,7 +81,7 @@ header {
 
 .sec {
     position: relative;
-    background: #59b461 ;
+    background: #59b461;
     padding: 100px;
 }
 
