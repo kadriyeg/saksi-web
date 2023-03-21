@@ -37,8 +37,6 @@ header {
 }
 .navigation a{
     text-align: center;
-
-    
     text-decoration: none;
     color: #ffffff;
     padding: 3px 15px;
@@ -67,7 +65,7 @@ header {
     position: absolute;
     font-size: 4em;
     text-align: center;
-    width: 60%;
+    width: 80%;
     font-weight: 800;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
