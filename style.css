@@ -30,20 +30,22 @@ header {
     width: 140px;
 }
 .navigation {
+    flex-direction: column;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
 }
 .navigation a{
-    display: flex;
-    position: relative;
+    text-align: center;
     text-decoration: none;
-    justify-content: center;
-    align-items: center;
     color: #ffffff;
     padding: 3px 15px;
     border-radius: 20px;
-    margin: 0 10px;
-    font-weight: 600;
+    margin: 1 10px;
+    font-size: small;
+    font-weight: 400;
+    width: 10%;
+
 }
 .navigation a:hover,
 .navigation a.active {
