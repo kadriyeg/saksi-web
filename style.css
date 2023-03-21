@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 * {
 margin:0;
 padding: 0;
@@ -25,12 +26,12 @@ header {
 }
 
 #saksilogo {
-    height: 80px;
+    height: 70px;
     width: 140px;
 }
 .navigation a{
     text-decoration: none;
-    color: #359381;
+    color: #ffffff;
     padding: 3px 15px;
     border-radius: 20px;
     margin: 0 10px;
@@ -38,7 +39,7 @@ header {
 }
 .navigation a:hover,
 .navigation a.active {
-    background: #359381;
+    background: #5e9763;
     color: #f9f9f9;
 }
 .parallax {
@@ -69,7 +70,7 @@ header {
 
 .sec {
     position: relative;
-    background: #003329 ;
+    background: #59b461 ;
     padding: 100px;
 }
 
@@ -85,4 +86,145 @@ header {
     color: #ffff;
     font-weight: 300;
 
+}
+
+.services_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+
+.services_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #171717;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 0px;
+}
+
+.services_taital::after {
+    content: '';
+    position: absolute;
+    background-image: url(../images/cup-icon.png);
+    height: 53px;
+    width: 50px;
+    left: -70px;
+    top: 50%;
+    right: initial;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: translateY(-50%);
+}
+
+.services_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #171717;
+    margin: 0px;
+}
+
+.services_section_2 {
+    width: 100%;
+    float: left;
+}
+
+.box_main {
+    width: 50%;
+    float: left;
+    background-color: #f1f1f1;
+    height: auto;
+    border-radius: 5px;
+    padding: 90px 10px 70px 10px;
+    margin-top: 40px;
+}
+
+.left_main {
+    width: 50%;
+    float: left;
+}
+
+.middle_main {
+    width: 2%;
+    float: left;
+}
+
+.right_main {
+    width: 48%;
+    float: left;
+}
+
+.cup_img_1 {
+    width: 200%;
+    float: left;
+    text-align: center;
+    min-height: 140px;
+}
+
+.border_10 {
+    width: 5px;
+    float: left;
+    background-color: #59b461;
+    height: 100px;
+}
+
+.milk_text {
+    width: 100%;
+    float: left;
+    color: #151515;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.price_text {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box_main:hover {
+    background-color: #59b461;
+}
+
+.box_main:hover .border_10 {
+    background-color: #ffffff;
+}
+
+.box_main.active {
+    background-color: #59b461;
+}
+
+.box_main.active .border_10 {
+    background-color: #ffffff;
+}
+
+.see_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.see_bt a {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #242424;
+    border-radius: 4px;
+    padding: 10px 0px;
+    margin-top: 100px;
+}
+
+.see_bt a:hover {
+    color: #ffffff;
+    background-color: #59b461;
 }
