@@ -64,11 +64,10 @@ header {
     position: relative;
     font-size: 4em;
     text-align: center;
+    font-weight: 400;
     width: 80%;
-    font-weight: 800;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-
 }
 .parallax img {
     position: absolute;
