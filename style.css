@@ -56,29 +56,29 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-
+    background-color: red;
+    position: relative;
 }
 
-#text {
+.text {
     position: relative;
-    font-size: 4em;
+    font-size: 1em;
     text-align: center;
     font-weight: 400;
-    width: 80%;
+    width: 100%;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 .parallax img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    pointer-events: none;
+    position: absolute; /* Set position to absolute to allow precise positioning */
+  top: 0;
+  left: 0;
+  width: 100%; /* Set the width of the image to 100% to fill the container */
+  height: 100%; /* Set the height of the image to 100% to match the height of the container */
+  object-fit: cover; 
 }
 
 .sec {
-    position: relative;
     background: #59b461;
     padding: 100px;
 }
