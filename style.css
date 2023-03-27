@@ -119,7 +119,6 @@ header {
 .services_taital::after {
     content: '';
     position: absolute;
-    background-image: url(../images/cup-icon.png);
     height: 53px;
     width: 50px;
     left: -70px;
